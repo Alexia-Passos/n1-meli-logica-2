@@ -3,14 +3,21 @@
 
 var r = require("readline-sync");
 
-let nomeDoProduto = ['maça', 'banana','pêra', 'ameixa'];
-let precoDoProduto = ['2.00', '3.00', '2.50', '4.00'];
+let produtos = [
+    {nome:'maça', preco: 2.00},
+    {nome:'banana', preco: 3.00},
+    {nome: 'pêra', preco: 4.00}
+];
 
-let posicaoDoProduto = parseInt (r.question ("'Escolha um produto de 0 a 3'")) ['0','1','2','3'];
-let porcentagemDigitada = parseInt (r.question("Digite uma porcetagem de 0 a 50%"));
+let posicaoDoProduto = parseInt (r.question ("'Escolha um produto de 0 a 3'"));
+let porcentagemDigitada = parseInt (r.question("Digite uma porcetagem:"));
 
-console.log (posicaoDoProduto);
-console.log (porcentagemDigitada);
+let produtoSelecionado = produtos [posicaoDoProduto];
+let desconto = produtoSelecionado.preco*(porcentagemDigitada/100);
+
+
+console.log (`Produto ${produtoSelecionado.nome} com desconto é R$ ${desconto.toFixed (2)}`);
+
 
 
 
