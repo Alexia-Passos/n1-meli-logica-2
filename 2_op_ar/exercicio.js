@@ -1,4 +1,5 @@
 //resposta aqui
+<<<<<<< HEAD
 //var a = parseInt(r.question("Digite 1 ou 2"));
 
 var r = require("readline-sync");
@@ -34,3 +35,5 @@ Você deverá seguir os seguintes passos:
 
 Dica: você pode usar a função .toFixed(digits) para limitar o numero de casas decimais do desconto.
 */ 
+=======
+>>>>>>> a86e4fa1c34c3889402c12ab8be1928879764075
