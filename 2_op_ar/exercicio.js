@@ -36,4 +36,8 @@ Você deverá seguir os seguintes passos:
 Dica: você pode usar a função .toFixed(digits) para limitar o numero de casas decimais do desconto.
 */ 
 =======
+<<<<<<< HEAD
 >>>>>>> a86e4fa1c34c3889402c12ab8be1928879764075
+=======
+>>>>>>> 7ccc3a753873a762deceb1054ee2a5e6cc8cf6b8
+>>>>>>> master
